@@ -1,20 +1,19 @@
 package com.denix04.persistence.entity;
 
-import com.denix04.persistence.entity.enums.*;
-
+import como.denix04.persistence.entity.enums.Mood;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class OpStrat {
+public class Introspection {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String strategy;
-    private Trend trend;
-    private double ratioRiskProfit;
-    private String description;
+    private Mood mood;
+    private String managent;
+    private String fellings;
+    private String observation;
 }

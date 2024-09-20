@@ -2,18 +2,18 @@ package com.denix04.persistence.controller;
 
 import java.util.List;
 
-import com.denix04.persistence.entity.OpObs;
+import com.denix04.persistence.entity.Introspection;
 
 import jakarta.persistence.*;
 
-public class OpObsController {
+public class IntrospectionController {
     private EntityManagerFactory emf;
 
-    public OpObsController() {
+    public IntrospectionController() {
         emf = Persistence.createEntityManagerFactory("tomi_bitacora");
     }
 
-    public void create(OpObs obs) {
+    public void create(Introspection obs) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
 
@@ -23,16 +23,16 @@ public class OpObsController {
         em.close();
     }
 
-    public OpObs find(Long id) {
+    public Introspection find(Long id) {
         EntityManager em = emf.createEntityManager();
-        return em.find(OpObs.class, id);
+        return em.find(Introspection.class, id);
     }
 
-    public List<OpObs> findAll() {
+    public List<Introspection> findAll() {
         EntityManager em = emf.createEntityManager();
-        List<OpObs> obs = null;
+        List<Introspection> obs = null;
         try {
-            obs = em.createQuery("SELECT * FROM OpObs", OpObs.class)
+            obs = em.createQuery("SELECT * FROM Introspection", Introspection.class)
                     .getResultList();
         } catch (Exception e) {
             e.printStackTrace();

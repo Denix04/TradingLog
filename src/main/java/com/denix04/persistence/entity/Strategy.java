@@ -1,16 +1,24 @@
 package com.denix04.persistence.entity;
 
+import java.util.ArrayList;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class OpObs {
+public class Strategy {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String fellings;
-    private String observation;
+    private String strategy;
+    private int timeUsed;
+    private double ratioLostWin;
+    private double ratioLostProfit;
+    private int streak;
+    private ArrayList<Indicator> indicators;
+    private String observations;
+
 }

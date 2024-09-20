@@ -2,11 +2,11 @@ package com.denix04.persistence.controller;
 
 import jakarta.persistence.*;
 
-public class OpRecController {
+public class OperationController {
 
     private EntityManagerFactory emf;
 
-    public OpRecController() {
+    public OperationController() {
         emf = Persistence.createEntityManagerFactory("tomi_bitacora");
     }
 }

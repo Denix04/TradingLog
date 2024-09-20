@@ -9,7 +9,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class OpRec {
+public class Operation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -24,4 +24,7 @@ public class OpRec {
     private double commision;
     private double profit;
     private boolean win;
+    private Trend trend;
+    private double ratioRiskProfit;
+    private String description;
 }
