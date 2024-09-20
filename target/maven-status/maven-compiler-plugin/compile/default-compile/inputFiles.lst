@@ -1,0 +1,9 @@
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/App.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/gui/panel/MenuPanel.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/gui/panel/StrategyPanel.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/persistence/entity/OperationObservation.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/persistence/entity/OperationRecord.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/persistence/entity/OperationStrategy.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/persistence/entity/enums/Instrument.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/persistence/entity/enums/Trend.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/persistence/entity/enums/TypeOperation.java

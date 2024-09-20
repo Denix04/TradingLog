@@ -1,0 +1,9 @@
+com/denix04/gui/panel/MenuPanel.class
+com/denix04/gui/panel/StrategyPanel.class
+com/denix04/persistence/entity/enums/Instrument.class
+com/denix04/App.class
+com/denix04/persistence/entity/enums/TypeOperation.class
+com/denix04/persistence/entity/OperationObservation.class
+com/denix04/persistence/entity/enums/Trend.class
+com/denix04/persistence/entity/OperationRecord.class
+com/denix04/persistence/entity/OperationStrategy.class
