@@ -6,9 +6,9 @@
              version="3.0">
 
     <persistence-unit name="tomi_bitacora">
-        <class>com.denix04.persistence.entity.OperationObservation</class>
-        <class>com.denix04.persistence.entity.OperationRecord</class>
-        <class>com.denix04.persistence.entity.OperationStrategy</class>
+        <class>com.denix04.persistence.entity.OpObs</class>
+        <class>com.denix04.persistence.entity.OpRec</class>
+        <class>com.denix04.persistence.entity.OpStrat</class>
         
         <properties>
             <!-- Database connection settings -->
@@ -19,7 +19,7 @@
 
              <!-- Hibernate settings -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
-            <property name="hibernate.hbm2ddl.auto" value="create"/> <!-- Other options: validate, create, create-drop -->
+            <property name="hibernate.hbm2ddl.auto" value="create-drop"/> <!-- Other options: validate, create, create-drop -->
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>           
 
