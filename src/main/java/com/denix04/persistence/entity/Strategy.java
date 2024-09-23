@@ -18,7 +18,7 @@ public class Strategy {
     private double ratioLostWin;
     private double ratioLostProfit;
     private int streak;
-    private ArrayList<Indicator> indicators;
+    private ArrayList<TradingIndicator> indicators;
     private String observations;
 
 }

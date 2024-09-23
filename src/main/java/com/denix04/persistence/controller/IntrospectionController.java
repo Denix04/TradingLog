@@ -35,6 +35,7 @@ public class IntrospectionController {
             obs = em.createQuery("SELECT * FROM Introspection", Introspection.class)
                     .getResultList();
         } catch (Exception e) {
+            System.out.println("ERROR in retrive instropections");
             e.printStackTrace();
         }
 

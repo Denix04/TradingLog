@@ -1,6 +1,6 @@
 package com.denix04.persistence.entity;
 
-public class Indicator {
+public class TradingIndicator {
 
     private String name;
     private String description;
