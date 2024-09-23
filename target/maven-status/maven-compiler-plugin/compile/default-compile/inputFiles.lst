@@ -1,5 +1,7 @@
 /home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/App.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/gui/Frame.java
 /home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/gui/panel/MenuPanel.java
+/home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/gui/panel/NewOperation.java
 /home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/gui/panel/OperationPanel.java
 /home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/gui/panel/StrategyPanel.java
 /home/alvaro/Documents/Programacion/Java/Programas/tomiBitacora/src/main/java/com/denix04/persistence/controller/IntrospectionController.java
