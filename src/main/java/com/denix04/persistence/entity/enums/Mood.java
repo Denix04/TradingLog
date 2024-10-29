@@ -1,4 +1,4 @@
-package como.denix04.persistence.entity.enums;
+package com.denix04.persistence.entity.enums;
 
 public enum Mood {
     DEPRESSED, 

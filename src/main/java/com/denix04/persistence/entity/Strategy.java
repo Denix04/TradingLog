@@ -21,4 +21,18 @@ public class Strategy {
     private ArrayList<TradingIndicator> indicators;
     private String observations;
 
+    public Strategy() {
+    }
+
+    public Strategy(String strategy,String obs) {
+        this.strategy = strategy;
+        this.timeUsed = 0;
+        this. ratioLostWin = 0;
+        this.ratioLostProfit = 0;
+        this.streak = 0;
+        this.indicators = new ArrayList<>();
+        this.observations = obs;
+
+    }
+
 }

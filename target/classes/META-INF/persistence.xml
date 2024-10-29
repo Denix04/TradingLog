@@ -18,7 +18,7 @@
             <property name="jakarta.persistence.jdbc.password" value="hernan1975"/>
 
              <!-- Hibernate settings -->
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.transaction.jta.platform" value="JakartaJtaPlatform"/>
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/> <!-- Other options: validate, create, create-drop -->
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>           
